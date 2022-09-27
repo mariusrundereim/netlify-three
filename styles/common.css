@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkslategrey;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.hero {
+    width: 100vw;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1274&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.pagelogo {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navigation {
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
